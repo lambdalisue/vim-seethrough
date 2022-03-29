@@ -11,6 +11,13 @@ function! s:apply() abort
   highlight LineNr ctermbg=NONE guibg=NONE
   highlight CursorLineNr ctermbg=NONE guibg=NONE
   highlight SpecialKey ctermbg=NONE guibg=NONE
+  highlight VertSplit ctermbg=NONE guibg=NONE
+  highlight SignColumn ctermbg=NONE guibg=NONE
+  highlight Statusline cterm=NONE ctermbg=NONE gui=NONE guibg=NONE
+  highlight StatuslineNC cterm=NONE ctermbg=NONE gui=NONE guibg=NONE
+  highlight Tabline cterm=NONE ctermbg=NONE gui=NONE guibg=NONE
+  highlight TablineSel cterm=NONE ctermbg=NONE gui=NONE guibg=NONE
+  highlight TablineFill cterm=NONE ctermbg=NONE gui=NONE guibg=NONE
   highlight ALEErrorSign ctermbg=NONE guibg=NONE
   highlight ALEWarningSign ctermbg=NONE guibg=NONE
   highlight GitGutterAdd ctermbg=NONE guibg=NONE
